@@ -14,4 +14,9 @@ func main() {
 	// 2 ex
 	var numbers = [5] int{1, 2, 3, 4, 5}
 	fmt.Println(numbers)
+
+	// array with for
+	for i := 0; i < len(numbers); i++ {
+		fmt.Print(numbers[i])
+	}
 }
